@@ -135,24 +135,50 @@ Click on photo below to view the vedio
 
 **SRS 01 (Curtain and Environment Data Retrieval)**: The system shall enable users to access real-time curtain status and environmental data (temperature, humidity, air quality) via a smartphone app.
 
+- Check, we create a timer tasks in FreeRTOS that controls setting and showing time, in video demo
+
 **SRS 02 (Curtain Time Adjustment)**: The system shall allow users to modify curtain operating times through the app.
+
+- Check, the same as **SRS 01**
 
 **SRS 03 (Manual Curtain Opening)**: The app shall provide a feature to open curtains using an “Open Curtain” button.
 
+- Check, we implement this in sensor task, also showing in demo video
+
 **SRS 04 (Automated Curtain Opening by Time)**: Users shall be able to set specific times for automatic curtain opening in the app.
+
+- Check, showing in demo video
 
 **SRS 05 (Automated Curtain Opening by Sunlight)**: With “Smart Decision” mode, the system shall open curtains automatically in intense sunlight.
 
+- Check, showing in demo video
+
 **SRS 06 (Manual Curtain Closing)**: The app shall include a “Close Curtain” button for manual curtain closure.
+
+- Check, showing in demo video
 
 **SRS 07 (Automated Curtain Closing by Time)**: Users shall be able to program specific times for automatic curtain closure.
 
+- Check, showing in demo video
+
 **SRS 08 (Automated Curtain Closing by Low Sunlight)**: In “Smart Decision” mode, the system shall close curtains in low sunlight conditions.
+
+- Check, we used a photoresistor to handle this, showing in demo video
 
 **SRS 09 (Remote Control)**: Users shall operate the openess of curtain via remote control.
 
+- Check, showing in demo video
+
 **SRS 10 (Curtain Opening Constraint)**: The system shall prevent curtain opening if already open.
+
+- Check, we set a bool parameter to determine if the curtain is already open.
 
 **SRS 11 (Curtain Closing Constraint)**: The system shall prevent curtain closing if already closed.
 
+- Check, we set a bool parameter to determine if the curtain is already close.
+
+**It seems like we have accomplied all our goals this semester.**
+
 ## 4. Project Photos & Screenshots
+
+![Logo](image/device.jpg "Company Logo")
