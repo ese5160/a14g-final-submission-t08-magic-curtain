@@ -210,3 +210,13 @@ Click on photo below to view the vedio
 - Block diagram of your system
     
     ![blockDiagram](image/structure.png)
+
+## 5. Demo Day
+
+![alt text](image/demo0.jpg)
+
+![alt text](image/demo1.jpg)
+
+**Awards**: Winning Lutron Award for Best Integration - 1st Place
+
+![alt text](image/demo2.jpg)
