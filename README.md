@@ -15,7 +15,7 @@ Click on photo below to view the vedio
 
 ## 2. Project Summary
 
-- Device Description
+- **Device Description**
 
     - What problem is your device solving? How do you use the Internet so augment your device functionality?
 
@@ -23,20 +23,18 @@ Click on photo below to view the vedio
         
         It utilizes internet connectivity to facilitate remote operation, allowing users to adjust their curtains from anywhere with an internet connection. Additionally, the device leverages the internet to access and process data from various sensors, enhancing its functionality and user experience.
 
-- Inspiration
+- **Inspiration**
 
     - What inspired you to do the project?
 
-        The inspiration for this project stemmed from my personal challenge of waking up in the morning without the jarring sound of an alarm. By integrating a 'smart mode' in the curtain opener, it can autonomously open the curtains when the sunlight reaches a set threshold, allowing for a natural and gentle morning wake-up with sunlight, aligning with the body's natural response to light.
+        The inspiration for this project stemmed from the personal challenge of waking up in the morning without the jarring sound of an alarm. By integrating a 'smart mode' in the curtain opener, it can autonomously open the curtains when the sunlight reaches a set threshold, allowing for a natural and gentle morning wake-up with sunlight, aligning with the body's natural response to light.
 
 
-- Device Functionality
+- **Device Functionality**
 
-    - Explain how your Internet-connected device is designed 
+    - Explain how the Internet-connected device is designed 
 
     - Include sensors, actuators, and other critical components.
-
-    - Your block diagram from earlier in this semester will be quite helpful here!
 
         The core of our Internet-connected device revolves around the SAMW25 chip, which enables seamless wireless internet connectivity. This chip acts as the brain of the device, facilitating communication between the various components and the user interface.
         The primary function of our device is curtain manipulation, which is achieved using a continuous rotation servo motor mounted on the curtain rod. We selected the PWM-controlled TR-90 model for its precision and reliability in controlling the curtain movement. The servo motor is directly connected to the SAMW25 chip, allowing for accurate control and feedback.
@@ -52,10 +50,12 @@ Click on photo below to view the vedio
 
         To provide a clear understanding of the device's components and their interconnections, we created a block diagram earlier in the semester. This diagram visually represents the flow of data and control signals between the SAMW25 chip, the servo motor, the various sensors, and the user interface. It serves as a valuable reference for understanding the device's architecture and functionality.
 
-        ![Logo](image/structure.png "Company Logo")
+        Block diagram of the device is shown below:
+
+        ![blockDiagram](image/structure.png)
 
 
-- Challenges
+- **Challenges**
 
     - Where did you face difficulties? This could be in firmware, hardware, software, integration, etc.
     - How did you overcome these challenges?
@@ -70,11 +70,11 @@ Click on photo below to view the vedio
         By employing debugging techniques, such as using the watermark function, and carefully reviewing and optimizing our code, we were able to overcome the memory allocation issue and ensure the proper functioning of the timer mode in our device.
 
 
-- Prototype Learnings
+- **Prototype Learnings**
 
-    - What lessons did you learn by building and testing this prototype?
+    - What lessons did our learn by building and testing this prototype?
 
-    - If you had to build this device again, what would you do differently?
+    - If we had to build this device again, what would us do differently?
 
         Through the process of building and testing our prototype, we gained valuable insights and learned important lessons that will shape our future development efforts.
         One crucial lesson we learned is the significance of thoroughly testing the power module at the initial stages of development. In our case, we encountered a challenge where we had mistakenly connected the SDA and SCL lines. However, if we had made a similar mistake with the 3V3 and 5V power lines, the consequences could have been catastrophic. Connecting the wrong voltage to sensitive components could have resulted in permanent damage to the hardware, rendering the device non-functional. This experience emphasizes the need for meticulous attention to detail and rigorous testing of the power module to ensure the safety and reliability of the device.
@@ -82,7 +82,7 @@ Click on photo below to view the vedio
 
         If we had the opportunity to build this device again, we would prioritize drawing the circuits with even greater care and precision. While we were able to resolve the SDA and SCL line issue, it highlighted the need for meticulous circuit design to prevent similar mistakes in the future. We would allocate more time and resources to double-check and verify the connections, ensuring that each component is correctly wired and that the overall circuit design is robust and error-free. 
 
-- Next Steps
+- **Next Steps**
 
     - What steps are needed to finish or improve this project?
 
@@ -91,25 +91,19 @@ Click on photo below to view the vedio
 
 - Takeaways from ESE5160
 
-    - What did you learn in ESE5160 through the lectures, assignments, and this course-long prototyping project?
+    - What did us learn in ESE5160 through the lectures, assignments, and this course-long prototyping project?
 
         One of the most significant takeaways from this course was learning how to design and create PCBs using Altium Designer. Altium is a powerful and industry-standard tool for PCB design, and gaining proficiency in it is a crucial skill for any electronics engineer. Throughout the course, we had the opportunity to dive deep into Altium and explore its various features and capabilities. We learned how to create schematic diagrams, design PCB layouts, and generate manufacturing files. This hands-on experience with Altium has equipped us with the ability to transform our ideas and circuits into physical boards, which is a fundamental aspect of electronic product development.
         
         Another valuable aspect of ESE5160 was the emphasis on programming and debugging with FreeRTOS. FreeRTOS is a popular real-time operating system widely used in embedded systems. Through the course, we gained a solid understanding of the principles and practices of real-time programming using FreeRTOS. We learned how to create and manage tasks, handle inter-task communication, and utilize synchronization primitives such as semaphores and mutexes. The assignments and projects provided us with practical opportunities to apply these concepts and develop our skills in writing efficient and reliable embedded software.
 
-- Project Links
+- **Project Links**
 
-    - Provide a URL to your Node-RED instance for our review (make sure it’s running on your Azure instance!)
+    - Node-RED instance for our review: [Node-RED Link](http://74.249.109.202:1880/ui)
 
-        http://74.249.109.202:1880/ui
+    - Codes: [A12 Link](https://github.com/ese5160/a12g-firmware-drivers-t08-magic-curtain)
 
-    - Include a link to your A12G code repository
-
-        https://github.com/ese5160/a12g-firmware-drivers-t08-magic-curtain
-
-    - Provide the share link to your final PCBA on Altium 365.
-
-        https://upenn-eselabs.365.altium.com/designs/754D0AFD-A89A-461E-8F2C-72B919B5E2A2#design
+    - Final PCBA on Altium 365: [PCBA Link](https://upenn-eselabs.365.altium.com/designs/754D0AFD-A89A-461E-8F2C-72B919B5E2A2#design)
 
 ## 3. Hardware & Software Requirements
 
@@ -181,4 +175,38 @@ Click on photo below to view the vedio
 
 ## 4. Project Photos & Screenshots
 
-![Logo](image/device.jpg "Company Logo")
+- Final Project Imaging
+    
+    ![alt text](image/device.jpg)
+
+- The standalone PCBA, top
+    
+    ![alt text](image/PCB2.jpg)
+
+- The standalone PCBA, bottom
+  
+    ![alt text](image/PCB3.jpg)
+
+- Thermal camera images while the board is running under load
+    
+    ![alt text](image/8min.jpeg)
+
+- The Altium Board design in 2D view (screenshot)
+    
+    ![alt text](image/PCB2D.png)
+
+- The Altium Board design in 3D view (screenshot)
+    
+    ![alt text](image/PCB3D.png)
+
+- Node-RED dashboard (screenshot)
+- 
+    ![alt text](image/NodeRed.png)
+
+- Node-RED backend (screenshot)
+  
+    ![alt text](image/NodeRed2.png)
+
+- Block diagram of your system
+    
+    ![blockDiagram](image/structure.png)
