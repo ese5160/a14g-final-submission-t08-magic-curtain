@@ -11,7 +11,7 @@
 
 Click on photo below to view the vedio
 
-[![Final Project Demo Video](image/device.jpg)](https://www.youtube.com/watch?v=DNdOzl5xq_A "Final Project Demo Video")
+[![Final Project Demo Video](image/device.jpg)](https://youtu.be/ArXoclu9yT8 "Final Project Demo Video")
 
 ## 2. Project Summary
 
