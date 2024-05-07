@@ -177,7 +177,12 @@ Click on photo below to view the vedio
 
 - Final Project Imaging
     
-    ![alt text](image/device.jpg)
+    ![alt text](image/look1.jpg)
+
+    ![alt text](image/look2.jpg)
+
+    ![alt text](image/look3.jpg)
+
 
 - The standalone PCBA, top
     
